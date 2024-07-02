@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 data-testid="slackDisplayName">Timothy Abiola</h1>
+    </header>
+    <div class="container">
+      <img
+        src="slack_profile_pic.jpg"
+        alt="Slack Profile Picture"
+        data-testid="slackProfilePicture"
+      />
+      <section>
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <p>
+          Over the next two years, my professional development goals include
+          mastering advanced JavaScript (ES6+), React (hooks, context API,
+          Next.js), TypeScript, and CSS (pre-processors, CSS-in-JS). I plan to
+          learn backend basics with Node.js and Express, build full-stack
+          applications using the MERN stack, and optimize web performance.
+          Additionally, I aim to become proficient with build tools like Webpack
+          and Parcel, as well as automation tools such as Gulp and npm scripts.
+          Understanding cloud platforms like AWS and Azure, containerization
+          with Docker, and Kubernetes is also a priority. I will focus on
+          enhancing my knowledge of UX principles, responsive design, and
+          collaborating closely with designers. Furthermore, I intend to attend
+          tech meetups, contribute to open-source projects, and mentor junior
+          developers.
+        </p>
+      </section>
+    </div>
+    <aside>
+      <div class="center">
+        <p data-testid="currentTimeUTC"></p>
+        <p data-testid="currentDay"></p>
+        <p data-testid="slackEmail">abiolatimothy75@gmail.com</p>
+      </div>
+    </aside>
+    <footer>
+      <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+      <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+      <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+        >Scrape Any Web</a
+      >
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
